@@ -8,10 +8,12 @@
     "Compile": "truffle compile",
     "Migrate": "truffle migrate",
     "Test contracts": "truffle test",
-    "Run dev server": "cd app && npm run dev",
-    "Build for production": "cd app && npm run build"
+    "Test front-end for unit": "npm run test",
+    "Test front-end for e2e": "npm run test:e2e",
+    "Run dev server": "npm run serve",
+    "Build for production": "npm run build"
   },
   "hooks": {
-    "post-unpack": "cd app && npm install"
+    "post-unpack": "npm install"
   }
 }
