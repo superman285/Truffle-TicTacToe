@@ -1,4 +1,5 @@
 # TicTacToe New
+[![Build Status](https://www.travis-ci.org/superman285/TicTacToe.svg?branch=master)](https://www.travis-ci.org/superman285/TicTacToe)
 
 ## Project setup
 ```
