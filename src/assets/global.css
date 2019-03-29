@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'modak';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/modak.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/md-icons.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Baloo Bhaina';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/baloo-bhaina.woff2) format('woff2');
+}
+
+html {
+  font-size: 100%;
+}
+
+@media screen and (min-width: 32em) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width: 36em) {
+  html {
+    font-size: 125%;
+  }
+}
+@media screen and (min-width: 75em) {
+  html {
+    font-size: 140%;
+  }
+}
+
+@media screen and (min-width: 136em) {
+  html {
+    font-size: 160%;
+  }
+}

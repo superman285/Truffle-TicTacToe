@@ -1,0 +1,23 @@
+language: node_js
+node_js: "11"
+addons:
+  chrome: stable
+sudo: required
+
+before_install:
+  - npm install
+script:
+  - npm test
+  - npm run build
+after_success:
+  - git status -sb
+  - git config --global user.name 'superman285'
+  - git config --global user.email 'superman285@126.com'
+  - git add .
+  - git commit -m "lint & rebuild project,update the dist directory"
+  - git status -sb
+  - git push --force "https://superman285:${GITHUB_TOKEN}@${GITHUB_REPO}" HEAD:master
+
+env:
+  global:
+    - GITHUB_REPO: github.com/superman285/TicTacToe.git
