@@ -4,8 +4,8 @@ addons:
   chrome: stable
 sudo: required
 
-#before_install:
-#  - npm install
+before_install:
+  - npm install
 script:
   - npm test
   - npm run build
