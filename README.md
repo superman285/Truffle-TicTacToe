@@ -1,8 +1,9 @@
 # Truffle-TicTacToe
 [![Build Status](https://www.travis-ci.org/superman285/TicTacToe.svg?branch=master)](https://www.travis-ci.org/superman285/TicTacToe)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/88208ca7e5dc4d47be6f268b5e168401)](https://www.codacy.com/app/superman285/Truffle-TicTacToe?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=superman285/Truffle-TicTacToe&amp;utm_campaign=Badge_Grade)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/superman285/Truffle-TicTacToe.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/superman285/TicTacToe.svg)
 ![GitHub madein china](https://img.shields.io/badge/made%20in-China-blueviolet.svg)
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
 
 
 
