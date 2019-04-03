@@ -105,10 +105,15 @@ export default {
     ChessBoard
   },
   mounted: function() {
-    //绑web3报错https://cn.vuejs.org/v2/api/#data
-    //vue和web3的冲突
-    this.$store.state.web3 = window.web3;
-    console.log("aftermounted", window.web3 == this.$store.state.web3);
+    //https://cn.vuejs.org/v2/api/#data
+    //the conflict between vue & web3
+    try {
+      this.$store.state.web3 = window.web3;
+    } catch (err) {
+      if (String(err).includes("Duplicated method __ob__")) {
+        this.$store.state.web3 = window.web3;
+      }
+    }
   },
   data: () => ({
     showpool: false
